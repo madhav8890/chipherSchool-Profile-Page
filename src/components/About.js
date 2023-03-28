@@ -7,6 +7,7 @@ import {
     Stack,
     Textarea 
 } from '@chakra-ui/react';
+
 import { isDisabled } from '@testing-library/user-event/dist/utils';
 
 const About = () => {
@@ -14,7 +15,7 @@ const About = () => {
     /* Here's a custom control */
     return(
         <>
-         <Box px={10}>
+         <Box px={10} bg='gray.100'>
         <Flex h={20} alignItems={'center'} justifyContent={'space-between'}>
           <Box>
             <Flex flex='1' gap='4' alignItems='center' flexWrap='wrap'>
@@ -22,13 +23,14 @@ const About = () => {
             </Flex>
           </Box>
           <Flex alignItems={'center'}>
-              <Button value='none'>
+              <Button bg='#f3912e'>
                 Edit
               </Button>
           </Flex>
         </Flex>
          <Stack spacing={3}>
          <Textarea borderRadius="lg"
+          bg='#FFFFFF'
         placeholder='Add Something About You.'
         size='sm'
         resize="none"
