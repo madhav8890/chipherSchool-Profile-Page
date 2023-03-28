@@ -13,7 +13,8 @@ import {
     Text,
   } from '@chakra-ui/react'
   
-  export const Login = () => (
+  export default function Login() {
+    return(<>
     <Container
       maxW="lg"
       py={{
@@ -100,4 +101,6 @@ import {
         </Box>
       </Stack>
     </Container>
-  )
+    </>
+    )
+  }
