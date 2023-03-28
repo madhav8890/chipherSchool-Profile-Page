@@ -56,7 +56,7 @@ import { useToast } from '@chakra-ui/react'
           <Stack align={'center'}>
             <Heading fontSize={'4xl'}>Log in to your account</Heading>
             <Text fontSize={'lg'} color={'gray.600'}>
-              to enjoy add video streaming... <Link color={'blue.400'}>features</Link> ✌️
+            <Link color={'blue.400'}>features</Link> ✌️
             </Text>
           </Stack>
           <Box

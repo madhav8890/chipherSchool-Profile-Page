@@ -5,6 +5,7 @@ import LoginPage from './components/LoginPage';
 import SignupPage from './components/SignupPage';
 // import Login from './components/Login'
 import { ChakraProvider } from '@chakra-ui/react'
+import Follower from './pages/Follower';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/profile" element={<MainLayout/>} />
           <Route path="/" element={<LoginPage />} />
           <Route path="/signup" element={<SignupPage />} />
+          <Route path="/follower" element={<Follower/>} />
         </Routes>
       </BrowserRouter>
     </div>

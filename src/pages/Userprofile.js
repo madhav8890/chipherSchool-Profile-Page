@@ -373,7 +373,7 @@ const Userprofile = (props) => {
                         </ModalBody>
                         <ModalFooter>
                             <Button mr={3} onClick={onClose}>Cancel</Button>
-                            <Button colorScheme='blue'  >
+                            <Button colorScheme='blue' type='submit' onClick={onClose}  >
                                 Save
                             </Button>
                         </ModalFooter>
