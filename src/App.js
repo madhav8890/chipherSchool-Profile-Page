@@ -1,5 +1,6 @@
 import './App.css';
 import MainLayout from './components/MainLayout';
+// import Login from './components/Login'
 import { ChakraProvider } from '@chakra-ui/react'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       
       <ChakraProvider>
+      {/* <Login/> */}
       <MainLayout/>
     </ChakraProvider>
   

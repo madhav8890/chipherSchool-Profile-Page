@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactApexChart from "react-apexcharts";
-import { ApexOptions } from "apexcharts";
 
 function generateData(count, yrange) {
   var i = 0;

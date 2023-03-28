@@ -20,15 +20,15 @@ export default function Navbar() {
 
               <Box>
                 <Text fontSize='lg' align='left'>Hello</Text>
-                <Heading fontSize='2xl' align='left' size='sm'>Segun Adebayo</Heading>
-                <Text fontSize='lg' align='left'>Creator, Chakra UI</Text>
+                <Heading fontSize='2xl' align='left' size='sm'>Madhav Prajapati</Heading>
+                <Text fontSize='lg' align='left'>madhav5mar2001@gmail.com</Text>
               </Box>
             </Flex>
           </Box>
           <Flex alignItems={'center'}>
-              <Button >
+              <Text >
                 0 Follower
-              </Button>
+              </Text>
           </Flex>
         </Flex>
       </Box>
